@@ -2,5 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Domain
 metadata:
   name: 'project-1'
+  annotations:
+    github.com/project-slug: serhii-butko/test-catalog/A
 spec:
   owner: 'group:test-group'

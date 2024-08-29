@@ -2,6 +2,8 @@ apiVersion: backstage.io/v1alpha1
 kind: System
 metadata:
   name: 'system-2'
+  annotations:
+    github.com/project-slug: serhii-butko/test-catalog/B/Bb/Bbb
 spec:
   owner: 'group:test-group'
   domain: 'project-2'
