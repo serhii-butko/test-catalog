@@ -1,0 +1,21 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: 'test-group'
+  description: 'Test Group'
+spec:
+  type: development
+  profile:
+    displayName: 'Test Group'
+  children: []
+  members: ['s.butko']
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: 's.butko'
+spec:
+  profile:
+    displayName: 'Serhii Butko'
+    email: 's.butko@itransition.com'
+  memberOf: ['group:test-group']

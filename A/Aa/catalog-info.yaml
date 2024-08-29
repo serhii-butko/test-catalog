@@ -1,0 +1,7 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: 'system-1'
+spec:
+  owner: 'group:test-group'
+  domain: 'project-1'
